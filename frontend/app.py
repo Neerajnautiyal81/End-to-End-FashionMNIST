@@ -15,6 +15,7 @@ st.set_page_config(
 # Title
 # -----------------------------
 st.title("👕 FashionMNIST Image Classifier")
+st.caption("Upload a FashionMNIST image and get the predicted class with confidence.")
 st.write("Upload a FashionMNIST image and click **Predict**.")
 
 # -----------------------------
