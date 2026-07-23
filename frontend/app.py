@@ -55,7 +55,7 @@ if uploaded_file is not None:
                 }
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/predict",
+                    "https://end-to-end-fashionmnist.onrender.com/predict",
                     files=files
                 )
 
